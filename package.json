@@ -1,0 +1,22 @@
+{
+  "name": "cypress_with_cucumber",
+  "version": "1.0.0",
+  "description": "sample project for cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cucumber",
+    "cypress"
+  ],
+  "author": "Mohamed Ibrahim",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^11.2.0",
+    "esbuild": "^0.15.16"
+  }
+}
